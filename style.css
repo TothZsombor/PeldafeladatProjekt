@@ -1,5 +1,11 @@
 body {
     background-image: url(forras/hatter.jpeg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 115%;
+}
+
+@media screen and (max-width: 1430px){
+    body {
+        background-size: 180%;
+    }
 }
