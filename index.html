@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg bg-info-subtle border-bottom border-primary-subtle ">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Főoldal</a>
+      <a class="navbar-brand nav-fooldal" href="#fooldal">Főoldal</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active nav-jegtanc" aria-current="page" href="jegtanc.html">Jégtánc</a>
           <a class="nav-link" href="#">Features</a>
           <a class="nav-link" href="#">Pricing</a>
           <a class="nav-link disabled" aria-disabled="true">Disabled</a>
@@ -25,8 +25,31 @@
     </div>
 </nav>
 
-<div>
+<div class="container-fluid col-xl-8 mt-5 border border-primary-subtle bg-info-subtle" id="fooldal">
     <h1>Műkorcsolya</h1>
+    <p class="fw-bold">
+      A műkorcsolya egy olimpiai sportág. Gyakran együtt emlegetik egyik ágával, a jégtánccal. Értékelésük pontozással történik. A versenyző vagy versenyzők külön pontokat kapnak a technikára és külön az előadásmódra. Mindkét ágban adott elemeket kell zenére bemutatni.
+    </p>
+</div>
+<div class="row col-xl-8 mx-auto fw-bold">
+  <div class="col-xl-7 mt-3 border border-primary-subtle bg-info-subtle">
+    <p class="mt-5">
+      Páros és <a href="">női</a>, illetve <a href="">férfi</a> versenyre bontható a sportág. Mindháromban egy úgynevezett rövid programot és egy kűrt kell bemutatni. Mindkét program fő elemei az ugrások, forgások, lépéssorok, lépések előadási elemek illetve ezek kombinációi és egyéb figurák
+    </p>
+    <p>Általános versenyen beutatott ugrások: </p>
+    <ul>
+      <li>Axel</li>
+      <li>Salchow</li>
+      <li>Rittberger</li>
+      <li>Toe Loop</li>
+      <li>Flip</li>
+      <li>Lutz</li>
+    </ul>
+  </div>
+  <div class="col-xl-5 mt-3 border border-primary-subtle bg-info-subtle text-center">
+    <img src="forras/magyar_jegtancosok.jfif" alt="Nagy Zsuzsanna és Fejes Máté jégtáncosok" title="Nagy Zsuzsanna és Fejes Máté jégtáncosok" class="img-fluid">
+    <p>Nagy Zsuzsanna és Fejes Máté jégtáncosok</p>
+  </div>
 </div>
 </body>
 </html>
