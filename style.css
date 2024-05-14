@@ -6,6 +6,13 @@ body {
 
 @media screen and (max-width: 1430px){
     body {
-        background-size: 180%;
+        background-size: 200%;
+    }
+}
+
+@media screen and (max-width: 574px){
+    body {
+        background-size: 600%;
+        transition: .5s;
     }
 }
