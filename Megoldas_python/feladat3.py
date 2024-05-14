@@ -28,7 +28,7 @@ print(f"\tSzabadprogram pontszám: {maxV.szabadp}")
 #5. feladat     -> 4 pont: 1 pont helyes bekérés, 2 pont helyes függvények, 1 pont helyes kiírás
 #Egy nemzet által elért összes pontszám
 #Elírt nemzetet nem kell ellenőrízni
-print("\n5. feladat: Melyik nemzet összpontszámát szeretné tudni?")
+print("\n5. feladat: Melyik nemzet összesített pontszámát szeretné tudni?")
 kert_nemzet = input("\tA nemzet hárombetűs kódja: ")
 ossz: float = 0
 for v in versenyzok:
