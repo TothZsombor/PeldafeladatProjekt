@@ -4,27 +4,22 @@ def main():
     szam1 = szambekeres('Adja meg az első számot: ')
     szam2 = szambekeres('\nAdja meg a második számot: ')
     muvelet_valasz = muvelet_valasztas()
-    muvelet(muvelet_valasz, szam1, szam2)
+    muvelet(szam1, szam2)
 
 
 
-def szambekeres(kiiras: str):
+def szambekeres() -> int:
     szam = 0
     try:
-        szam =int(input(kiiras))
+        szam = int(input(kiiras))
     except:
-        szam = szambekeres('Kérem számot adjon meg: ')
+        szam: int = szambekeres('')
     return szam
 
 def muvelet_valasztas():
-    print('Válasszon műveletet: ')
-    print('\t1..Összeadás')
-    print('\t2..Kivonás')
-    print('\t3..Szorzás')
-    print('\t4..Osztás')
-    print('\t0..Kilépés')
 
-    v = 100
+
+    v = '1'
     while v != '1' and v != '2' and v != '3' and v != '4':
         v = input('Választás: ')
     return v

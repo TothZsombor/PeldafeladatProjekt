@@ -5,12 +5,12 @@
 '''
 
 #Feltételezzük hogy a felhasználó helyes adatot ad be
-bekert_adat = int(input('Hány forintot szeretne átváltani más pénzenemmé? '))
+bekert_adat = int(input('Hány forintot szeretne átváltani más pénznemmé? '))
 
 #Átváltás
 print(f'{bekert_adat} Ft =')
-print(f'\t{bekert_adat * 0.0026} Eur')
-print(f'\t{bekert_adat * 0.0022} Font')
-print(f'\t{bekert_adat * 0.0027} Dollar')
+print(f'\t{bekert_adat * 0.0026:.2f} Euro')
+print(f'\t{bekert_adat * 0.0022:.2f} Font')
+print(f'\t{bekert_adat * 0.0027:.2f} Dollar')
 
 #Árfolyam megadva,nincs kezdőfájl
