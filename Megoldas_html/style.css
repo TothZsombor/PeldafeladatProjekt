@@ -1,4 +1,6 @@
 body {
+    background-image: url('forras/hatter.jpeg');
+    background-repeat: no-repeat;
     background-size: 115%;
 }
 
@@ -13,6 +15,10 @@ body {
         background-size: 600%;
         transition: .5s;
     }
+}
+
+#olimpia_jegtanc_kep{
+    width: 100%;
 }
 
 #olimpia_noi{

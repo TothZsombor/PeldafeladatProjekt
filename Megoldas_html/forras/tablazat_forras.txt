@@ -1,0 +1,10 @@
+Arany	Kim Jona	Dél-Korea (KOR)	78,50	150,06	228,56
+Ezüst	Aszada Mao	Japán (JPN)	73,78	131,72	205,50
+Bronz	Joannie Rochette	Kanada (CAN)	71,36	131,28	202,64
+4.	Mirai Nagasu	Egyesült Államok (USA)	63,76	126,39	190,15
+5.	Andó Miki	Japán (JPN)	64,76	124,10	188,86
+6.	Laura Lepistö	Finnország (FIN)	61,36	126,61	187,97
+7.	Rachael Flatt	Egyesült Államok (USA)	64,64	117,85	182,49
+8.	Szuzuki Akiko	Japán (JPN)	61,02	120,42	181,44
+9.	Aljona Leonova	Oroszország (RUS)	62,14	110,32	172,46
+10.	Kszenyija Makarova	Oroszország (RUS)	59,22	112,69	171,91
