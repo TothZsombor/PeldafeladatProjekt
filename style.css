@@ -18,9 +18,7 @@ body {
 #olimpia_noi{
     width: 60%;
 }
-#olimpia_noi th{
-    border: 1px dotted black;
-}
+
 #olimpia_noi td{
-    border: 1px solid black;
+    border: 2px solid black;
 }
